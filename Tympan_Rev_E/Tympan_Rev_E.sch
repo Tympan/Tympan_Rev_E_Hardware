@@ -2394,7 +2394,7 @@ Wire Notes Line
 Wire Notes Line
 	19000 14500 19000 13200
 Text Notes 3950 1550 0    100  ~ 0
-Much of this is not necessary. Teensy 4.0 has power regulation\nWe may want to add a coin cell for the RTC? Or wire in to 3V3?\nWe could keep the LiPo charging circuit?
+Route V_USB from Teensy to LiPo charger\nPower switch on VIN to Teensy\nAdd RTC Coin Cell\nDo we need alt power pads at this point?
 Text Label 16200 4300 0    60   ~ 0
 DAT2
 Text Label 16200 4400 0    60   ~ 0
@@ -2825,4 +2825,8 @@ Text Label 11450 7850 0    60   ~ 0
 LED_A
 Text Label 10900 7850 0    60   ~ 0
 LED_R
+Text Notes 1850 11050 0    100  ~ 0
+Same pin out and orientation as Rev D\nfor compatibility with Shields
+Text Notes 10450 14600 0    100  ~ 0
+Any desire to change the PIO connections?
 $EndSCHEMATC
