@@ -2648,7 +2648,7 @@ Connection ~ 16450 6800
 Wire Wire Line
 	16450 6800 16450 7000
 Text Notes 16250 6450 0    60   ~ 0
-PROGRAM is connected to push button on the Teensy, I think
+PROGRAM is already connected to push button on the Teensy, I think
 NoConn ~ 16200 6400
 Text Notes 16250 6300 0    60   ~ 0
 ON/OFF needs push-button, but unclear what rail to tie it to
@@ -2829,4 +2829,8 @@ Text Notes 1850 11050 0    100  ~ 0
 Same pin out and orientation as Rev D\nfor compatibility with Shields
 Text Notes 10450 14600 0    100  ~ 0
 Any desire to change the PIO connections?
+Text Notes 12550 7250 0    80   ~ 0
+These pin assignments need to be double checked\nAll unused pins will also be broken out and accessible
+Text Notes 12550 7700 0    60   ~ 0
+Questions:\nHow to test board rev?\nWCLK pin is correct?\nDOUT and DIN pins are correct?
 $EndSCHEMATC
