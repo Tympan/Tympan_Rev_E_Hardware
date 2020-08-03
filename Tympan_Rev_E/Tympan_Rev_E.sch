@@ -665,8 +665,8 @@ NoConn ~ 6200 2900
 NoConn ~ 5350 2900
 Text Notes 5150 1900 0    60   ~ 0
 POWER SUPPLY
-Text Notes 3850 2250 0    60   ~ 0
-BATTERY:\nLiPo 3.7V 350mAh\nAdafruit ID: 2750
+Text Notes 5050 2300 0    60   ~ 0
+BATTERY:\nLiPo 3.7V 500mAh
 Text Notes 5650 9500 0    60   ~ 0
 CODEC
 $Comp
@@ -1085,7 +1085,7 @@ F 3 "" H 2450 3200 50  0000 C CNN
 	1    2450 3200
 	0    -1   -1   0   
 $EndComp
-Text Label 2650 2500 2    60   ~ 0
+Text Label 2400 2300 2    60   ~ 0
 V_USB
 Wire Wire Line
 	3100 2800 3200 2800
@@ -1149,8 +1149,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 2800 2050 2800
 Wire Wire Line
-	2050 2800 2050 2500
-Wire Wire Line
 	2350 3200 2050 3200
 Wire Wire Line
 	2050 3200 2050 3000
@@ -1160,8 +1158,6 @@ Wire Wire Line
 	2800 3000 2900 3000
 Wire Wire Line
 	3250 2500 3200 2500
-Text Label 2050 2500 2    60   ~ 0
-USB
 Wire Wire Line
 	4500 8700 4500 9050
 Wire Wire Line
@@ -1317,8 +1313,6 @@ F 3 "" H 2900 2500 50  0000 C CNN
 	1    2900 2500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2650 2500 2750 2500
 Wire Wire Line
 	2750 2500 2750 2350
 Wire Wire Line
@@ -2214,336 +2208,181 @@ Wire Notes Line
 Wire Notes Line
 	1100 13650 1100 10650
 $Comp
-L power:+3.3V #PWR?
-U 1 1 5E46CBB0
-P 17450 10900
-AR Path="/5E34A24B/5E46CBB0" Ref="#PWR?"  Part="1" 
-AR Path="/5E46CBB0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 17450 10750 50  0001 C CNN
-F 1 "+3.3V" H 17450 11040 50  0000 C CNN
-F 2 "" H 17450 10900 50  0000 C CNN
-F 3 "" H 17450 10900 50  0000 C CNN
-	1    17450 10900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E46CBB6
-P 17450 11900
-AR Path="/5E34A24B/5E46CBB6" Ref="#PWR?"  Part="1" 
-AR Path="/5E46CBB6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 17450 11650 50  0001 C CNN
-F 1 "GND" H 17450 11750 50  0000 C CNN
-F 2 "" H 17450 11900 50  0000 C CNN
-F 3 "" H 17450 11900 50  0000 C CNN
-	1    17450 11900
-	1    0    0    -1  
-$EndComp
-Text Label 18700 11600 0    60   ~ 0
-DAT1
-Text Label 18700 11100 0    60   ~ 0
-DAT2
-Text Label 18700 11200 0    60   ~ 0
-DAT3
-Text Label 18700 11300 0    60   ~ 0
-CMD
-Text Label 18700 11500 0    60   ~ 0
-DAT0
-Text Label 18700 11400 0    60   ~ 0
-CLK
-Text Notes 17750 12350 0    60   ~ 0
-Micro SD Card
-$Comp
-L Tympan:8_PIN_microSD CONN?
-U 1 1 5E46CBC3
-P 18100 11400
-AR Path="/5E34A24B/5E46CBC3" Ref="CONN?"  Part="1" 
-AR Path="/5E46CBC3" Ref="CONN?"  Part="1" 
-F 0 "CONN?" H 17950 11800 60  0000 C CNN
-F 1 "8_PIN_microSD" H 18100 10950 60  0000 C CNN
-F 2 "Tympan:MOLEX_47571-0001" H 18250 11850 60  0001 C CNN
-F 3 "" H 18250 11850 60  0000 C CNN
-	1    18100 11400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E46CBC9
-P 17250 11350
-AR Path="/5E34A24B/5E46CBC9" Ref="C?"  Part="1" 
-AR Path="/5E46CBC9" Ref="C?"  Part="1" 
-F 0 "C?" H 17260 11420 50  0000 L CNN
-F 1 "2.2uF" H 17300 11250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 17250 11350 50  0001 C CNN
-F 3 "" H 17250 11350 50  0000 C CNN
-	1    17250 11350
-	-1   0    0    -1  
-$EndComp
-Text Notes 17650 12150 0    60   ~ 0
-MOLEX 47571-0001\n
-Wire Wire Line
-	17450 11400 17550 11400
-Wire Wire Line
-	17450 11200 17450 11300
-Wire Wire Line
-	17550 11500 17450 11500
-Connection ~ 17450 11500
-Wire Wire Line
-	17550 11600 17450 11600
-Connection ~ 17450 11600
-Wire Wire Line
-	17450 10900 17450 11100
-Wire Wire Line
-	17250 11100 17450 11100
-Wire Wire Line
-	17550 11200 17450 11200
-Connection ~ 17450 11400
-Wire Wire Line
-	17550 11300 17450 11300
-Connection ~ 17450 11300
-Wire Wire Line
-	17250 11700 17450 11700
-Connection ~ 17450 11700
-Wire Wire Line
-	17250 11250 17250 11100
-Connection ~ 17450 11100
-Wire Wire Line
-	17250 11450 17250 11700
-Wire Notes Line
-	16900 10600 19050 10600
-Wire Notes Line
-	19050 10600 19050 12500
-Wire Notes Line
-	19050 12500 16900 12500
-Wire Notes Line
-	16900 12500 16900 10600
-Wire Wire Line
-	17450 11500 17450 11600
-Wire Wire Line
-	17450 11600 17450 11700
-Wire Wire Line
-	17450 11400 17450 11500
-Wire Wire Line
-	17450 11300 17450 11400
-Wire Wire Line
-	17450 11700 17550 11700
-Wire Wire Line
-	17450 11700 17450 11900
-Wire Wire Line
-	17450 11100 17550 11100
-$Comp
 L Connector_Generic:Conn_01x01 P?
 U 1 1 5E4BBA12
-P 18100 13450
+P 18150 10900
 AR Path="/5E34A24B/5E4BBA12" Ref="P?"  Part="1" 
 AR Path="/5E4BBA12" Ref="P?"  Part="1" 
-F 0 "P?" H 18100 13550 50  0000 C CNN
-F 1 "CONN_01X01" H 18400 13450 50  0000 C CNN
-F 2 "Tympan:NPTH_3mm" H 18100 13450 50  0001 C CNN
-F 3 "" H 18100 13450 50  0000 C CNN
-	1    18100 13450
+F 0 "P?" H 18150 11000 50  0000 C CNN
+F 1 "CONN_01X01" H 18450 10900 50  0000 C CNN
+F 2 "Tympan:NPTH_3mm" H 18150 10900 50  0001 C CNN
+F 3 "" H 18150 10900 50  0000 C CNN
+	1    18150 10900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 P?
 U 1 1 5E4BBA18
-P 18100 13650
+P 18150 11100
 AR Path="/5E34A24B/5E4BBA18" Ref="P?"  Part="1" 
 AR Path="/5E4BBA18" Ref="P?"  Part="1" 
-F 0 "P?" H 18100 13750 50  0000 C CNN
-F 1 "CONN_01X01" H 18400 13650 50  0000 C CNN
-F 2 "Tympan:NPTH_3mm" H 18100 13650 50  0001 C CNN
-F 3 "" H 18100 13650 50  0000 C CNN
-	1    18100 13650
+F 0 "P?" H 18150 11200 50  0000 C CNN
+F 1 "CONN_01X01" H 18450 11100 50  0000 C CNN
+F 2 "Tympan:NPTH_3mm" H 18150 11100 50  0001 C CNN
+F 3 "" H 18150 11100 50  0000 C CNN
+	1    18150 11100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 P?
 U 1 1 5E4BBA1E
-P 18100 13850
+P 18150 11300
 AR Path="/5E34A24B/5E4BBA1E" Ref="P?"  Part="1" 
 AR Path="/5E4BBA1E" Ref="P?"  Part="1" 
-F 0 "P?" H 18100 13950 50  0000 C CNN
-F 1 "CONN_01X01" H 18400 13850 50  0000 C CNN
-F 2 "Tympan:NPTH_3mm" H 18100 13850 50  0001 C CNN
-F 3 "" H 18100 13850 50  0000 C CNN
-	1    18100 13850
+F 0 "P?" H 18150 11400 50  0000 C CNN
+F 1 "CONN_01X01" H 18450 11300 50  0000 C CNN
+F 2 "Tympan:NPTH_3mm" H 18150 11300 50  0001 C CNN
+F 3 "" H 18150 11300 50  0000 C CNN
+	1    18150 11300
 	1    0    0    -1  
 $EndComp
-Text Notes 17700 14350 0    60   ~ 0
+Text Notes 17750 11800 0    60   ~ 0
 NPTH Mounting Holes
 Wire Notes Line
-	19000 13200 17450 13200
+	19050 10650 17500 10650
 $Comp
 L Connector_Generic:Conn_01x01 P?
 U 1 1 5E4BBA26
-P 18100 14050
+P 18150 11500
 AR Path="/5E34A24B/5E4BBA26" Ref="P?"  Part="1" 
 AR Path="/5E4BBA26" Ref="P?"  Part="1" 
-F 0 "P?" H 18100 14150 50  0000 C CNN
-F 1 "CONN_01X01" H 18400 14050 50  0000 C CNN
-F 2 "Tympan:NPTH_3mm" H 18100 14050 50  0001 C CNN
-F 3 "" H 18100 14050 50  0000 C CNN
-	1    18100 14050
+F 0 "P?" H 18150 11600 50  0000 C CNN
+F 1 "CONN_01X01" H 18450 11500 50  0000 C CNN
+F 2 "Tympan:NPTH_3mm" H 18150 11500 50  0001 C CNN
+F 3 "" H 18150 11500 50  0000 C CNN
+	1    18150 11500
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	17450 13200 17450 14500
+	17500 10650 17500 11950
 Wire Notes Line
-	17450 14500 19000 14500
+	17500 11950 19050 11950
 Wire Notes Line
-	19000 14500 19000 13200
+	19050 11950 19050 10650
 Text Notes 3950 1550 0    100  ~ 0
-Route V_USB from Teensy to LiPo charger\nPower switch on VIN to Teensy\nAdd RTC Coin Cell\nDo we need alt power pads at this point?
-Text Label 16200 4300 0    60   ~ 0
-DAT2
-Text Label 16200 4400 0    60   ~ 0
-DAT3
-Text Label 16200 4500 0    60   ~ 0
-CMD
-Text Label 16200 4600 0    60   ~ 0
-CLK
-Text Label 16200 4700 0    60   ~ 0
-DAT0
-Text Label 16200 4800 0    60   ~ 0
-DAT1
-Text Label 13400 6600 0    60   ~ 0
+Route V_USB from Teensy to LiPo charger\nPower switch on VIN to Teensy
+Text Label 16750 4400 0    60   ~ 0
 SCL
-Text Label 13400 6500 0    60   ~ 0
+Text Label 16750 4500 0    60   ~ 0
 SDA
 $Comp
 L Device:R_Small R?
 U 1 1 5E472F69
-P 13250 6300
+P 18400 4150
 AR Path="/5E34A24B/5E472F69" Ref="R?"  Part="1" 
 AR Path="/5E472F69" Ref="R?"  Part="1" 
-F 0 "R?" H 13300 6350 50  0000 L CNN
-F 1 "4K7" H 13300 6250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 13250 6300 50  0001 C CNN
-F 3 "" H 13250 6300 50  0000 C CNN
-	1    13250 6300
-	1    0    0    -1  
+F 0 "R?" H 18450 4200 50  0000 L CNN
+F 1 "4K7" H 18450 4100 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 18400 4150 50  0001 C CNN
+F 3 "" H 18400 4150 50  0000 C CNN
+	1    18400 4150
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5E4742FA
-P 13100 6300
+P 18550 4150
 AR Path="/5E34A24B/5E4742FA" Ref="R?"  Part="1" 
 AR Path="/5E4742FA" Ref="R?"  Part="1" 
-F 0 "R?" H 13150 6350 50  0000 L CNN
-F 1 "4K7" H 13150 6250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 13100 6300 50  0001 C CNN
-F 3 "" H 13100 6300 50  0000 C CNN
-	1    13100 6300
-	-1   0    0    -1  
+F 0 "R?" H 18600 4200 50  0000 L CNN
+F 1 "4K7" H 18600 4100 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 18550 4150 50  0001 C CNN
+F 3 "" H 18550 4150 50  0000 C CNN
+	1    18550 4150
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E474778
-P 13100 6050
+P 18550 3850
 AR Path="/5E34A24B/5E474778" Ref="#PWR?"  Part="1" 
 AR Path="/5E474778" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13100 5900 50  0001 C CNN
-F 1 "+3.3V" H 13100 6190 50  0000 C CNN
-F 2 "" H 13100 6050 50  0000 C CNN
-F 3 "" H 13100 6050 50  0000 C CNN
-	1    13100 6050
-	1    0    0    -1  
+F 0 "#PWR?" H 18550 3700 50  0001 C CNN
+F 1 "+3.3V" H 18550 3990 50  0000 C CNN
+F 2 "" H 18550 3850 50  0000 C CNN
+F 3 "" H 18550 3850 50  0000 C CNN
+	1    18550 3850
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	13100 6400 13100 6600
+	18400 4050 18400 3950
 Wire Wire Line
-	13250 6400 13250 6500
+	18400 3950 18550 3950
 Wire Wire Line
-	13250 6200 13250 6100
+	18550 3950 18550 3850
 Wire Wire Line
-	13250 6100 13100 6100
-Wire Wire Line
-	13100 6100 13100 6050
-Wire Wire Line
-	13100 6200 13100 6100
-Connection ~ 13100 6100
-$Comp
-L Tympan:Teensy4.0 U?
-U 1 1 5E5DC9CD
-P 15100 5700
-F 0 "U?" H 15100 7665 50  0000 C CNN
-F 1 "Teensy4.0" H 15100 7574 50  0000 C CNN
-F 2 "" H 14700 5900 50  0001 C CNN
-F 3 "" H 14700 5900 50  0001 C CNN
-	1    15100 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13250 6500 14000 6500
-Wire Wire Line
-	13100 6600 14000 6600
-Text Label 16200 6000 0    60   ~ 0
+	18550 4050 18550 3950
+Connection ~ 18550 3950
+Text Label 16750 4000 0    60   ~ 0
 MCLK
-Text Label 14000 5400 2    60   ~ 0
+Text Label 14550 4600 2    60   ~ 0
 DOUT
-Text Label 14000 5500 2    60   ~ 0
+Text Label 14550 4500 2    60   ~ 0
 DIN
-Text Label 14000 6800 2    60   ~ 0
+Text Label 16750 4200 0    60   ~ 0
 BCLK
-Text Label 14000 6700 2    60   ~ 0
+Text Label 16750 4300 0    60   ~ 0
 WCLK
-Text Label 14000 5200 2    60   ~ 0
+Text Label 14550 6000 2    60   ~ 0
 DIN_1
-Text Label 14000 4900 2    60   ~ 0
+Text Label 14550 4400 2    60   ~ 0
 DOUT_1
-Text Label 14000 4800 2    60   ~ 0
+Text Label 14550 3900 2    60   ~ 0
 BT_RX
-Text Label 14000 4700 2    60   ~ 0
+Text Label 14550 3800 2    60   ~ 0
 BT_TX
-Text Label 14000 5300 2    60   ~ 0
+Text Label 14550 5400 2    60   ~ 0
 nRESET
-Text Label 16200 5800 0    60   ~ 0
+Text Label 14550 5300 2    60   ~ 0
 SDA2
-Text Label 16200 5900 0    60   ~ 0
-SCL2
-Text Label 14000 5900 2    60   ~ 0
+Text Label 14550 5000 2    60   ~ 0
 MISO
-Text Label 14000 6000 2    60   ~ 0
+Text Label 16750 5000 0    60   ~ 0
 SCK
-Text Label 14000 5800 2    60   ~ 0
+Text Label 14550 4900 2    60   ~ 0
 MOSI
-Text Label 14000 5700 2    60   ~ 0
+Text Label 14550 4800 2    60   ~ 0
 SS
-Text Label 14000 5000 2    60   ~ 0
+Text Label 14550 4100 2    60   ~ 0
 BT_CTS
-Text Label 14000 5100 2    60   ~ 0
+Text Label 14550 4200 2    60   ~ 0
 BT_RTS
-Text Label 14000 5600 2    60   ~ 0
+Text Label 14550 4700 2    60   ~ 0
 BT_nRESET
-Text Label 16200 5000 0    60   ~ 0
+Text Label 16750 6000 0    60   ~ 0
 M_BIAS
-Text Label 16200 5100 0    60   ~ 0
-M_BIAS_1
-Text Label 14000 6100 2    60   ~ 0
+Text Label 16750 4900 0    60   ~ 0
 VREGEN
-Text Label 16200 5200 0    60   ~ 0
-nRESET_1
-Text Label 14000 6200 2    60   ~ 0
+Text Label 16750 4800 0    60   ~ 0
 LED_R
-Text Label 14000 6300 2    60   ~ 0
+Text Label 16750 4700 0    60   ~ 0
 LED_A
-Text Label 14000 6400 2    60   ~ 0
+Text Label 16750 4600 0    60   ~ 0
 POT
-Text Label 16200 5400 0    60   ~ 0
+Text Label 14550 5700 2    60   ~ 0
 BT_PIO0
-Text Label 16200 5500 0    60   ~ 0
+Text Label 14550 5600 2    60   ~ 0
 BT_PIO5
-Text Label 16200 6100 0    60   ~ 0
+Text Label 17600 4100 0    60   ~ 0
 REV_TEST
-Text Label 14000 4100 2    60   ~ 0
+Text Label 16750 3550 0    60   ~ 0
 V_USB
 Wire Wire Line
 	4250 2500 4850 2500
 Connection ~ 4850 2500
 Wire Wire Line
 	4850 2500 4850 2950
-Text Label 14000 4000 2    60   ~ 0
+Text Label 16750 3700 0    60   ~ 0
 VIN
 Text Label 6900 2500 0    60   ~ 0
 VIN
@@ -2565,9 +2404,7 @@ F 3 "~" V 3850 4110 50  0001 C CNN
 	1    3850 4050
 	1    0    0    -1  
 $EndComp
-Text Label 14000 4200 2    60   ~ 0
-V_BAT
-Text Label 3850 3850 0    60   ~ 0
+Text Label 15350 7150 3    60   ~ 0
 V_BAT
 $Comp
 L power:GND #PWR?
@@ -2589,248 +2426,347 @@ Coin Cell for RTC
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E836647
-P 13300 3850
+P 15500 7300
 AR Path="/5E34A24B/5E836647" Ref="#PWR?"  Part="1" 
 AR Path="/5E836647" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13300 3700 50  0001 C CNN
-F 1 "+3.3V" H 13300 3990 50  0000 C CNN
-F 2 "" H 13300 3850 50  0000 C CNN
-F 3 "" H 13300 3850 50  0000 C CNN
-	1    13300 3850
-	1    0    0    -1  
+F 0 "#PWR?" H 15500 7150 50  0001 C CNN
+F 1 "+3.3V" H 15500 7440 50  0000 C CNN
+F 2 "" H 15500 7300 50  0000 C CNN
+F 3 "" H 15500 7300 50  0000 C CNN
+	1    15500 7300
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	14000 4500 13300 4500
-Wire Wire Line
-	13300 4500 13300 4400
-Wire Wire Line
-	14000 4400 13300 4400
-Connection ~ 13300 4400
-Wire Wire Line
-	13300 4400 13300 4300
-Wire Wire Line
-	14000 4300 13300 4300
-Connection ~ 13300 4300
-Wire Wire Line
-	13300 4300 13300 3850
-Text Notes 11850 4650 0    60   ~ 0
-Teensy has power supply, but\nDo we want decoupling caps?
 $Comp
 L power:GND #PWR?
 U 1 1 5E88C0F1
-P 16450 7000
+P 15650 7500
 AR Path="/5E34A24B/5E88C0F1" Ref="#PWR?"  Part="1" 
 AR Path="/5E88C0F1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16450 6750 50  0001 C CNN
-F 1 "GND" H 16450 6850 50  0000 C CNN
-F 2 "" H 16450 7000 50  0000 C CNN
-F 3 "" H 16450 7000 50  0000 C CNN
-	1    16450 7000
+F 0 "#PWR?" H 15650 7250 50  0001 C CNN
+F 1 "GND" H 15650 7350 50  0000 C CNN
+F 2 "" H 15650 7500 50  0000 C CNN
+F 3 "" H 15650 7500 50  0000 C CNN
+	1    15650 7500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	16200 6500 16450 6500
-Wire Wire Line
-	16450 6500 16450 6600
-Wire Wire Line
-	16200 6600 16450 6600
-Connection ~ 16450 6600
-Wire Wire Line
-	16450 6600 16450 6700
-Wire Wire Line
-	16200 6700 16450 6700
-Connection ~ 16450 6700
-Wire Wire Line
-	16450 6700 16450 6800
-Wire Wire Line
-	16200 6800 16450 6800
-Connection ~ 16450 6800
-Wire Wire Line
-	16450 6800 16450 7000
-Text Notes 16250 6450 0    60   ~ 0
-PROGRAM is already connected to push button on the Teensy, I think
-NoConn ~ 16200 6400
-Text Notes 16250 6300 0    60   ~ 0
-ON/OFF needs push-button, but unclear what rail to tie it to
+Text Notes 16100 7100 0    60   ~ 0
+PROGRAM is already connected to push button pull-down on the Teensy
+Text Notes 16100 7500 0    60   ~ 0
+ON/OFF can float or have a pushbutton to GND\nForce the chip off (press for 4-5 seconds) then on again (press for 1-2 seconds). \nhttps://forum.pjrc.com/threads/57207-Teensy-4-0-Program-and-On-Off-pins
 $Comp
 L Device:LED_ALT D?
 U 1 1 5E9302F1
-P 10900 8700
+P 10050 6800
 AR Path="/5E34A24B/5E9302F1" Ref="D?"  Part="1" 
 AR Path="/5E9302F1" Ref="D?"  Part="1" 
-F 0 "D?" H 10900 8800 50  0000 C CNN
-F 1 "LED" H 10900 8600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206" H 10900 8700 50  0001 C CNN
-F 3 "" H 10900 8700 50  0000 C CNN
-	1    10900 8700
+F 0 "D?" H 10050 6900 50  0000 C CNN
+F 1 "LED" H 10050 6700 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206" H 10050 6800 50  0001 C CNN
+F 3 "" H 10050 6800 50  0000 C CNN
+	1    10050 6800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_ALT D?
 U 1 1 5E9302F7
-P 11450 8700
+P 10600 6800
 AR Path="/5E34A24B/5E9302F7" Ref="D?"  Part="1" 
 AR Path="/5E9302F7" Ref="D?"  Part="1" 
-F 0 "D?" H 11450 8800 50  0000 C CNN
-F 1 "LED" H 11450 8600 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206" H 11450 8700 50  0001 C CNN
-F 3 "" H 11450 8700 50  0000 C CNN
-	1    11450 8700
+F 0 "D?" H 10600 6900 50  0000 C CNN
+F 1 "LED" H 10600 6700 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206" H 10600 6800 50  0001 C CNN
+F 3 "" H 10600 6800 50  0000 C CNN
+	1    10600 6800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_POT_US RV?
 U 1 1 5E9302FD
-P 12200 8400
+P 11350 6500
 AR Path="/5E34A24B/5E9302FD" Ref="RV?"  Part="1" 
 AR Path="/5E9302FD" Ref="RV?"  Part="1" 
-F 0 "RV?" H 12050 8350 50  0000 C CNN
-F 1 "POT" H 12050 8500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 12200 8400 50  0001 C CNN
-F 3 "" H 12200 8400 50  0000 C CNN
-	1    12200 8400
+F 0 "RV?" H 11200 6450 50  0000 C CNN
+F 1 "POT" H 11200 6600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 11350 6500 50  0001 C CNN
+F 3 "" H 11350 6500 50  0000 C CNN
+	1    11350 6500
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5E930303
-P 10900 8350
+P 10050 6450
 AR Path="/5E34A24B/5E930303" Ref="R?"  Part="1" 
 AR Path="/5E930303" Ref="R?"  Part="1" 
-F 0 "R?" V 10800 8250 50  0000 L CNN
-F 1 "240R" V 11000 8250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 10900 8350 50  0001 C CNN
-F 3 "" H 10900 8350 50  0000 C CNN
-	1    10900 8350
+F 0 "R?" V 9950 6350 50  0000 L CNN
+F 1 "240R" V 10150 6350 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 10050 6450 50  0001 C CNN
+F 3 "" H 10050 6450 50  0000 C CNN
+	1    10050 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5E930309
-P 11450 8350
+P 10600 6450
 AR Path="/5E34A24B/5E930309" Ref="R?"  Part="1" 
 AR Path="/5E930309" Ref="R?"  Part="1" 
-F 0 "R?" V 11350 8300 50  0000 L CNN
-F 1 "240R" V 11550 8300 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 11450 8350 50  0001 C CNN
-F 3 "" H 11450 8350 50  0000 C CNN
-	1    11450 8350
+F 0 "R?" V 10500 6400 50  0000 L CNN
+F 1 "240R" V 10700 6400 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 10600 6450 50  0001 C CNN
+F 3 "" H 10600 6450 50  0000 C CNN
+	1    10600 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5E93030F
-P 12450 8550
+P 11600 6650
 AR Path="/5E34A24B/5E93030F" Ref="C?"  Part="1" 
 AR Path="/5E93030F" Ref="C?"  Part="1" 
-F 0 "C?" H 12460 8620 50  0000 L CNN
-F 1 "0.1uF" H 12460 8470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 12450 8550 50  0001 C CNN
-F 3 "" H 12450 8550 50  0000 C CNN
-	1    12450 8550
+F 0 "C?" H 11610 6720 50  0000 L CNN
+F 1 "0.1uF" H 11610 6570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 11600 6650 50  0001 C CNN
+F 3 "" H 11600 6650 50  0000 C CNN
+	1    11600 6650
 	-1   0    0    -1  
 $EndComp
-Text Notes 12150 8650 2    60   ~ 0
+Text Notes 11300 6750 2    60   ~ 0
 CW\n\n\n\n\nCCW
-Text Label 12450 8400 0    60   ~ 0
+Text Label 11600 6500 0    60   ~ 0
 POT
-Text Notes 11150 8650 3    60   ~ 0
+Text Notes 10300 6750 3    60   ~ 0
 RED
-Text Notes 11700 8650 3    60   ~ 0
+Text Notes 10850 6750 3    60   ~ 0
 AMBER
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E930319
-P 12200 7950
+P 11350 6050
 AR Path="/5E34A24B/5E930319" Ref="#PWR?"  Part="1" 
 AR Path="/5E930319" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 12200 7800 50  0001 C CNN
-F 1 "+3.3V" H 12200 8090 50  0000 C CNN
-F 2 "" H 12200 7950 50  0000 C CNN
-F 3 "" H 12200 7950 50  0000 C CNN
-	1    12200 7950
+F 0 "#PWR?" H 11350 5900 50  0001 C CNN
+F 1 "+3.3V" H 11350 6190 50  0000 C CNN
+F 2 "" H 11350 6050 50  0000 C CNN
+F 3 "" H 11350 6050 50  0000 C CNN
+	1    11350 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E93031F
-P 12200 9050
+P 11350 7150
 AR Path="/5E34A24B/5E93031F" Ref="#PWR?"  Part="1" 
 AR Path="/5E93031F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 12200 8800 50  0001 C CNN
-F 1 "GND" H 12200 8900 50  0000 C CNN
-F 2 "" H 12200 9050 50  0000 C CNN
-F 3 "" H 12200 9050 50  0000 C CNN
-	1    12200 9050
+F 0 "#PWR?" H 11350 6900 50  0001 C CNN
+F 1 "GND" H 11350 7000 50  0000 C CNN
+F 2 "" H 11350 7150 50  0000 C CNN
+F 3 "" H 11350 7150 50  0000 C CNN
+	1    11350 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E930325
-P 10900 9050
+P 10050 7150
 AR Path="/5E34A24B/5E930325" Ref="#PWR?"  Part="1" 
 AR Path="/5E930325" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10900 8800 50  0001 C CNN
-F 1 "GND" H 10900 8900 50  0000 C CNN
-F 2 "" H 10900 9050 50  0000 C CNN
-F 3 "" H 10900 9050 50  0000 C CNN
-	1    10900 9050
+F 0 "#PWR?" H 10050 6900 50  0001 C CNN
+F 1 "GND" H 10050 7000 50  0000 C CNN
+F 2 "" H 10050 7150 50  0000 C CNN
+F 3 "" H 10050 7150 50  0000 C CNN
+	1    10050 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E93032B
-P 11450 9050
+P 10600 7150
 AR Path="/5E34A24B/5E93032B" Ref="#PWR?"  Part="1" 
 AR Path="/5E93032B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11450 8800 50  0001 C CNN
-F 1 "GND" H 11450 8900 50  0000 C CNN
-F 2 "" H 11450 9050 50  0000 C CNN
-F 3 "" H 11450 9050 50  0000 C CNN
-	1    11450 9050
+F 0 "#PWR?" H 10600 6900 50  0001 C CNN
+F 1 "GND" H 10600 7000 50  0000 C CNN
+F 2 "" H 10600 7150 50  0000 C CNN
+F 3 "" H 10600 7150 50  0000 C CNN
+	1    10600 7150
 	1    0    0    -1  
 $EndComp
-Text Notes 11950 8850 1    60   ~ 12
+Text Notes 11100 6950 1    60   ~ 12
 3352T-1-103L
 Wire Wire Line
-	12350 8400 12450 8400
+	11500 6500 11600 6500
 Wire Wire Line
-	12450 8650 12450 8700
+	11600 6750 11600 6800
 Wire Wire Line
-	12450 8700 12200 8700
-Connection ~ 12200 8700
+	11600 6800 11350 6800
+Connection ~ 11350 6800
 Wire Wire Line
-	12450 8450 12450 8400
+	11600 6550 11600 6500
 Wire Wire Line
-	11450 7850 11450 8250
-Text Notes 16700 6100 0    60   ~ 0
+	10600 5950 10600 6350
+Text Notes 14950 3200 0    60   ~ 0
 USE PIN 22 TO TEST BOARD REV
 Wire Wire Line
-	11450 9050 11450 8850
+	10600 7150 10600 6950
 Wire Wire Line
-	11450 8550 11450 8450
+	10600 6650 10600 6550
 Wire Wire Line
-	12200 7950 12200 8250
+	11350 6050 11350 6350
 Wire Wire Line
-	12200 8550 12200 8700
+	11350 6650 11350 6800
 Wire Wire Line
-	10900 9050 10900 8850
+	10050 7150 10050 6950
 Wire Wire Line
-	10900 8550 10900 8450
+	10050 6650 10050 6550
 Wire Wire Line
-	12200 8700 12200 9050
+	11350 6800 11350 7150
 Wire Wire Line
-	10900 8250 10900 7850
-Text Label 11450 7850 0    60   ~ 0
+	10050 6350 10050 5950
+Text Label 10600 5950 0    60   ~ 0
 LED_A
-Text Label 10900 7850 0    60   ~ 0
+Text Label 10050 5950 0    60   ~ 0
 LED_R
 Text Notes 1850 11050 0    100  ~ 0
 Same pin out and orientation as Rev D\nfor compatibility with Shields
 Text Notes 10450 14600 0    100  ~ 0
 Any desire to change the PIO connections?
-Text Notes 12550 7250 0    80   ~ 0
-These pin assignments need to be double checked\nAll unused pins will also be broken out and accessible
-Text Notes 12550 7700 0    60   ~ 0
-Questions:\nHow to test board rev?\nWCLK pin is correct?\nDOUT and DIN pins are correct?
+$Comp
+L teensy:Teensy4.1 U?
+U 1 1 5F297041
+P 15650 5850
+F 0 "U?" H 15650 8415 50  0000 C CNN
+F 1 "Teensy4.1" H 15650 8324 50  0000 C CNN
+F 2 "" H 15250 6250 50  0001 C CNN
+F 3 "" H 15250 6250 50  0001 C CNN
+	1    15650 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16750 4400 18400 4400
+Wire Wire Line
+	18400 4250 18400 4400
+Wire Wire Line
+	16750 4500 18550 4500
+Wire Wire Line
+	18550 4250 18550 4500
+Text Label 14550 5200 2    60   ~ 0
+SCL2
+Text Notes 14000 2800 0    80   ~ 0
+All unused pins will also be broken out and accessible
+Text Notes 12700 3500 0    60   ~ 0
+Teensy has power supply, but\nDo we want decoupling caps?
+Text Label 14550 5900 2    60   ~ 0
+nRESET_1
+Text Label 14550 5800 2    60   ~ 0
+M_BIAS_1
+Wire Wire Line
+	2050 2400 2400 2400
+Wire Wire Line
+	2400 2400 2400 2300
+Wire Wire Line
+	2050 2400 2050 2800
+Wire Wire Line
+	2400 2500 2400 2400
+Wire Wire Line
+	2400 2500 2750 2500
+Connection ~ 2400 2400
+$Comp
+L power:+BATT #PWR?
+U 1 1 5F43B033
+P 3850 3700
+AR Path="/5E34A24B/5F43B033" Ref="#PWR?"  Part="1" 
+AR Path="/5F43B033" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3850 3550 50  0001 C CNN
+F 1 "+BATT" H 3850 3840 50  0000 C CNN
+F 2 "" H 3850 3700 50  0000 C CNN
+F 3 "" H 3850 3700 50  0000 C CNN
+	1    3850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3850 3850 3700
+Wire Wire Line
+	15500 7300 15500 7150
+Wire Wire Line
+	15650 7500 15650 7150
+$Comp
+L power:GND #PWR?
+U 1 1 5F505531
+P 16950 3800
+AR Path="/5E34A24B/5F505531" Ref="#PWR?"  Part="1" 
+AR Path="/5F505531" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 16950 3550 50  0001 C CNN
+F 1 "GND" H 16950 3650 50  0000 C CNN
+F 2 "" H 16950 3800 50  0000 C CNN
+F 3 "" H 16950 3800 50  0000 C CNN
+	1    16950 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F5063DB
+P 17200 3900
+AR Path="/5E34A24B/5F5063DB" Ref="#PWR?"  Part="1" 
+AR Path="/5F5063DB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 17200 3750 50  0001 C CNN
+F 1 "+3.3V" H 17200 4040 50  0000 C CNN
+F 2 "" H 17200 3900 50  0000 C CNN
+F 3 "" H 17200 3900 50  0000 C CNN
+	1    17200 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16750 3800 16950 3800
+Wire Wire Line
+	16750 3900 17200 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5F54888D
+P 14050 3700
+AR Path="/5E34A24B/5F54888D" Ref="#PWR?"  Part="1" 
+AR Path="/5F54888D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14050 3450 50  0001 C CNN
+F 1 "GND" H 14050 3550 50  0000 C CNN
+F 2 "" H 14050 3700 50  0000 C CNN
+F 3 "" H 14050 3700 50  0000 C CNN
+	1    14050 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14550 3700 14050 3700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F569EE4
+P 14100 5100
+AR Path="/5E34A24B/5F569EE4" Ref="#PWR?"  Part="1" 
+AR Path="/5F569EE4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14100 4950 50  0001 C CNN
+F 1 "+3.3V" H 14100 5240 50  0000 C CNN
+F 2 "" H 14100 5100 50  0000 C CNN
+F 3 "" H 14100 5100 50  0000 C CNN
+	1    14100 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14550 5100 14100 5100
+$Comp
+L power:GND #PWR?
+U 1 1 5F58C254
+P 17050 5100
+AR Path="/5E34A24B/5F58C254" Ref="#PWR?"  Part="1" 
+AR Path="/5F58C254" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 17050 4850 50  0001 C CNN
+F 1 "GND" H 17050 4950 50  0000 C CNN
+F 2 "" H 17050 5100 50  0000 C CNN
+F 3 "" H 17050 5100 50  0000 C CNN
+	1    17050 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17050 5100 16750 5100
+Text Notes 14700 2950 0    60   ~ 0
+https://www.pjrc.com/teensy/schematic.html
+NoConn ~ 15800 7150
+Wire Wire Line
+	16750 4100 17600 4100
 $EndSCHEMATC
