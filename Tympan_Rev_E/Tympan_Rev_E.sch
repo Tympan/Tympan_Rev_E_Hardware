@@ -1113,7 +1113,7 @@ U 1 1 5E367D88
 P 4450 2850
 AR Path="/5E34A24B/5E367D88" Ref="R?"  Part="1" 
 AR Path="/5E367D88" Ref="R12"  Part="1" 
-F 0 "R12" H 4300 2900 50  0000 L CNN
+F 0 "R12" H 4250 2900 50  0000 L CNN
 F 1 "2.2K" H 4200 2800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4450 2850 50  0001 C CNN
 F 3 "" H 4450 2850 50  0000 C CNN
@@ -2308,7 +2308,7 @@ Text Label 14550 4200 2    60   ~ 0
 BT_RTS
 Text Label 14550 4700 2    60   ~ 0
 BT_nRESET
-Text Label 16750 6000 0    60   ~ 0
+Text Label 16750 5700 0    60   ~ 0
 M_BIAS
 Text Label 16750 4900 0    60   ~ 0
 VREGEN
@@ -2318,9 +2318,9 @@ Text Label 16750 4700 0    60   ~ 0
 LED_A
 Text Label 16750 4600 0    60   ~ 0
 POT
-Text Label 14550 5700 2    60   ~ 0
+Text Label 14550 4300 2    60   ~ 0
 BT_PIO0
-Text Label 14550 5600 2    60   ~ 0
+Text Label 14550 4000 2    60   ~ 0
 BT_PIO5
 Text Label 17600 4100 0    60   ~ 0
 REV_TEST
@@ -2585,7 +2585,7 @@ U 1 1 5F297041
 P 15650 5850
 F 0 "U5" H 15650 8415 50  0000 C CNN
 F 1 "Teensy4.1" H 15650 8324 50  0000 C CNN
-F 2 "teensy:Teensy41" H 15250 6250 50  0001 C CNN
+F 2 "teensy:Teensy41_SMT" H 15250 6250 50  0001 C CNN
 F 3 "" H 15250 6250 50  0001 C CNN
 	1    15650 5850
 	1    0    0    -1  
@@ -2606,7 +2606,7 @@ Text Notes 12700 3500 0    60   ~ 0
 Teensy has power supply, but\nDo we want decoupling caps?
 Text Label 14550 5900 2    60   ~ 0
 nRESET_1
-Text Label 14550 5800 2    60   ~ 0
+Text Label 14550 5700 2    60   ~ 0
 M_BIAS_1
 Wire Wire Line
 	2050 2400 2400 2400
