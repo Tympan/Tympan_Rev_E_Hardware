@@ -2160,19 +2160,6 @@ Wire Notes Line
 	1100 13650 1100 10650
 $Comp
 L Connector_Generic:Conn_01x01 P?
-U 1 1 5E4BBA12
-P 18150 10900
-AR Path="/5E34A24B/5E4BBA12" Ref="P?"  Part="1" 
-AR Path="/5E4BBA12" Ref="P5"  Part="1" 
-F 0 "P5" H 18150 11000 50  0000 C CNN
-F 1 "CONN_01X01" H 18450 10900 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 18150 10900 50  0001 C CNN
-F 3 "" H 18150 10900 50  0000 C CNN
-	1    18150 10900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P?
 U 1 1 5E4BBA18
 P 18150 11100
 AR Path="/5E34A24B/5E4BBA18" Ref="P?"  Part="1" 
@@ -2312,9 +2299,9 @@ Text Label 16750 5700 0    60   ~ 0
 M_BIAS
 Text Label 16750 4900 0    60   ~ 0
 VREGEN
-Text Label 16750 4800 0    60   ~ 0
-LED_R
 Text Label 16750 4700 0    60   ~ 0
+LED_R
+Text Label 16750 4800 0    60   ~ 0
 LED_A
 Text Label 16750 4600 0    60   ~ 0
 POT
@@ -2322,7 +2309,7 @@ Text Label 14550 4300 2    60   ~ 0
 BT_PIO0
 Text Label 14550 4000 2    60   ~ 0
 BT_PIO5
-Text Label 17600 4100 0    60   ~ 0
+Text Label 17450 4100 0    60   ~ 0
 REV_TEST
 Text Label 16750 3550 0    60   ~ 0
 V_USB
@@ -2619,19 +2606,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 2500 2750 2500
 Connection ~ 2400 2400
-$Comp
-L power:+BATT #PWR?
-U 1 1 5F43B033
-P 3850 3700
-AR Path="/5E34A24B/5F43B033" Ref="#PWR?"  Part="1" 
-AR Path="/5F43B033" Ref="#PWR0143"  Part="1" 
-F 0 "#PWR0143" H 3850 3550 50  0001 C CNN
-F 1 "+BATT" H 3850 3840 50  0000 C CNN
-F 2 "" H 3850 3700 50  0000 C CNN
-F 3 "" H 3850 3700 50  0000 C CNN
-	1    3850 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 3850 3850 3700
 Wire Wire Line
@@ -2701,21 +2675,30 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5F58C254
-P 17050 5100
+P 17450 5250
 AR Path="/5E34A24B/5F58C254" Ref="#PWR?"  Part="1" 
 AR Path="/5F58C254" Ref="#PWR0148"  Part="1" 
-F 0 "#PWR0148" H 17050 4850 50  0001 C CNN
-F 1 "GND" H 17050 4950 50  0000 C CNN
-F 2 "" H 17050 5100 50  0000 C CNN
-F 3 "" H 17050 5100 50  0000 C CNN
-	1    17050 5100
-	0    -1   -1   0   
+F 0 "#PWR0148" H 17450 5000 50  0001 C CNN
+F 1 "GND" H 17450 5100 50  0000 C CNN
+F 2 "" H 17450 5250 50  0000 C CNN
+F 3 "" H 17450 5250 50  0000 C CNN
+	1    17450 5250
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17050 5100 16750 5100
 Text Notes 14700 2950 0    60   ~ 0
 https://www.pjrc.com/teensy/schematic.html
 NoConn ~ 15800 7150
+Text Notes 17250 10550 0    60   ~ 0
+Removed P5 because it does not fit on board
+Text Label 3850 3700 0    60   ~ 0
+V_BAT
 Wire Wire Line
-	16750 4100 17600 4100
+	16750 4100 17450 4100
+Wire Wire Line
+	17450 4100 17450 5100
+Connection ~ 17450 5100
+Wire Wire Line
+	17450 5100 16750 5100
+Wire Wire Line
+	17450 5250 17450 5100
 $EndSCHEMATC
