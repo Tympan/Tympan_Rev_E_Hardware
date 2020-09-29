@@ -2844,4 +2844,27 @@ Wire Wire Line
 	11400 8100 11400 8150
 Text Notes 11550 8400 0    60   ~ 0
 GAS GUAGE\nI2C ADDRESS 0001011\nUSE INTERNAL PULLUP ON ALARMB PIN
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5FA6E67C
+P 7550 9150
+F 0 "J3" H 7630 9192 50  0000 L CNN
+F 1 "Conn_01x03" H 7630 9101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7550 9150 50  0001 C CNN
+F 3 "~" H 7550 9150 50  0001 C CNN
+	1    7550 9150
+	1    0    0    -1  
+$EndComp
+Text Label 6950 8150 0    60   ~ 0
+G
+Text Label 6950 8050 0    60   ~ 0
+R
+Text Label 6950 7950 0    60   ~ 0
+L
+Text Label 7350 9250 2    60   ~ 0
+G
+Text Label 7350 9150 2    60   ~ 0
+R
+Text Label 7350 9050 2    60   ~ 0
+L
 $EndSCHEMATC
