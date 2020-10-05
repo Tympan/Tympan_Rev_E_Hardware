@@ -2581,8 +2581,6 @@ Text Label 14550 5200 2    60   ~ 0
 SCL2
 Text Notes 14000 2800 0    80   ~ 0
 All unused pins will also be broken out and accessible
-Text Notes 12700 3500 0    60   ~ 0
-Teensy has power supply, but\nDo we want decoupling caps?
 Text Label 14550 5900 2    60   ~ 0
 nRESET_1
 Text Label 14550 5700 2    60   ~ 0
@@ -2842,7 +2840,7 @@ Wire Wire Line
 Connection ~ 11400 8100
 Wire Wire Line
 	11400 8100 11400 8150
-Text Notes 11550 8400 0    60   ~ 0
+Text Notes 11150 8850 0    60   ~ 0
 GAS GUAGE\nI2C ADDRESS 0001011\nUSE INTERNAL PULLUP ON ALARMB PIN
 $Comp
 L Connector_Generic:Conn_01x03 J3
@@ -2867,4 +2865,14 @@ Text Label 7350 9150 2    60   ~ 0
 R
 Text Label 7350 9050 2    60   ~ 0
 L
+Wire Notes Line
+	10650 7000 10650 9200
+Wire Notes Line
+	10650 9200 13450 9200
+Wire Notes Line
+	13450 9200 13450 7000
+Wire Notes Line
+	13450 7000 10650 7000
+Text Notes 5650 9600 0    60   ~ 0
+I2C ADDRESS 0011000
 $EndSCHEMATC
