@@ -1274,9 +1274,9 @@ Wire Wire Line
 	3250 7550 2250 7550
 Wire Wire Line
 	3250 7850 2250 7850
-Text Label 2250 7550 0    60   ~ 0
-PDM_DAT
 Text Label 2250 7850 0    60   ~ 0
+PDM_DAT
+Text Label 2250 7550 0    60   ~ 0
 PDM_CLK
 $Comp
 L Device:C_Small C?
@@ -1982,9 +1982,9 @@ F 3 "" H 4500 11850 50  0000 C CNN
 	1    4500 11850
 	1    0    0    -1  
 $EndComp
-Text Label 4300 11650 2    60   ~ 0
-PDM_DAT
 Text Label 4300 11750 2    60   ~ 0
+PDM_DAT
+Text Label 4300 11650 2    60   ~ 0
 PDM_CLK
 Text Label 4300 12050 2    60   ~ 0
 SCK
