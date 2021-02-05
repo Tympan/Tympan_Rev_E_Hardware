@@ -8,7 +8,7 @@ In this case, the trace that connects two pads on the bottom of the Teensy needs
 
 We are also supplying battery power to VBAT, which goes to the Teensy RTC, so that pin needs to be connected as well. 
 
-![modifications](assets/Teensy41_Modifications.jpg)
+![modifications](assets/teensy41_Modifications.jpg)
 
 
 In our prototype, we are also adding in the [optional memory chips](https://www.pjrc.com/store/psram.html) that PJRC has kindly laid landing pads for.
