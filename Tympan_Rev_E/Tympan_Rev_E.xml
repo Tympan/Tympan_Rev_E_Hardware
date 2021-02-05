@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
+<<<<<<< Updated upstream
     <source>/Users/joelmurphy/Tympan_github/Tympan_Rev_E_Hardware/Tympan_Rev_E/Tympan_Rev_E.sch</source>
     <date>Monday, December 21, 2020 at 06:57:29 PM</date>
+=======
+    <source>/Users/biomurph/Tympan_github/Tympan_Rev_E_Hardware/Tympan_Rev_E/Tympan_Rev_E.sch</source>
+    <date>Tuesday, October 13, 2020 at 10:28:51 PM</date>
+>>>>>>> Stashed changes
     <tool>Eeschema (5.1.4-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1114,6 +1119,7 @@
       <uri>/Library/Application Support/kicad/library/Device.lib</uri>
     </library>
     <library logical="Solutions">
+<<<<<<< Updated upstream
       <uri>/Users/joelmurphy/Tympan_github/Tympan_Rev_E_Hardware/Tympan_Rev_E/Library/Solutions.lib</uri>
     </library>
     <library logical="Tympan">
@@ -1124,6 +1130,18 @@
     </library>
     <library logical="teensy">
       <uri>/Users/joelmurphy/Tympan_github/Tympan_Rev_E_Hardware/Tympan_Rev_E/Library/teensy.lib</uri>
+=======
+      <uri>/Users/biomurph/Tympan_github/Tympan_Rev_E_Hardware/Tympan_Rev_E/Library/Solutions.lib</uri>
+    </library>
+    <library logical="Tympan">
+      <uri>/Users/biomurph/Tympan_github/Tympan_Rev_E_Hardware/Tympan_Rev_E/Library/Tympan.lib</uri>
+    </library>
+    <library logical="Tympan_Rev_E">
+      <uri>/Users/biomurph/Tympan_github/Tympan_Rev_E_Hardware/Tympan_Rev_E/Library/Tympan_Rev_E.lib</uri>
+    </library>
+    <library logical="teensy">
+      <uri>/Users/biomurph/Tympan_github/Tympan_Rev_E_Hardware/Tympan_Rev_E/Library/teensy.lib</uri>
+>>>>>>> Stashed changes
     </library>
   </libraries>
   <nets>

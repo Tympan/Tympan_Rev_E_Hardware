@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 19)
     (tracks 882)
     (zones 0)
     (modules 89)
@@ -23,7 +23,7 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
@@ -4163,6 +4163,9 @@
     )
   )
 
+  (gr_text "RGB LED\npin 1 = 3V\npin 2 = B\npin 3 = G\npin 4 = R\nPads 1.5 x 1.1 on center\n" (at 151.2 139.5) (layer Dwgs.User)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "L  R  G\nOUTPUT" (at 153.45 63.65) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
