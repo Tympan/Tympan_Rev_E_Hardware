@@ -1,5 +1,5 @@
-# Tympan_Rev_E_Hardware
-Repository for Tympan Rev E Electronics and case designs
+# Tympan Rev E Hardware v1.0.0
+This version of Tympan Rev E is designed as a daughter card for the Teensy 4.1 from PJRC. This branch of the repository will only hold v1 designs and upgrades of same.
 
 ## Modifications To Teensy 4.1
 This design is a daughter card for the Teensy 4.1 from PJRC. In order for them to play together nicely, you need to mod the Teensy 4.1.
