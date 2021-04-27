@@ -3,4 +3,5 @@
   (lib (name Tympan)(type Legacy)(uri ${KIPRJMOD}/Library/Tympan.lib)(options "")(descr ""))
   (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/Library/teensy.lib)(options "")(descr ""))
   (lib (name Tympan_Rev_E)(type Legacy)(uri ${KIPRJMOD}/Library/Tympan_Rev_E.lib)(options "")(descr ""))
+  (lib (name MIMXRT1062DVJ6B)(type Legacy)(uri ${KIPRJMOD}/Library/MIMXRT1062DVJ6B.lib)(options "")(descr ""))
 )

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIMXRT1062DVJ6B
+D IC MCU 32BIT EXT MEM 196MAPBGA
+F https://www.nxp.com/docs/en/nxp/data-sheets/IMXRT1060CEC.pdf
+$ENDCMP
+#
+#End Doc Library
