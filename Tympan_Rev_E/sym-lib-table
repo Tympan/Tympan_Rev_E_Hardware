@@ -4,4 +4,5 @@
   (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/Library/teensy.lib)(options "")(descr ""))
   (lib (name Tympan_Rev_E)(type Legacy)(uri ${KIPRJMOD}/Library/Tympan_Rev_E.lib)(options "")(descr ""))
   (lib (name MIMXRT1062DVJ6B)(type Legacy)(uri ${KIPRJMOD}/Library/MIMXRT1062DVJ6B.lib)(options "")(descr ""))
+  (lib (name Tympan_D)(type Legacy)(uri /Users/joelmurphy/Tympan_github/Tympan_Rev_D_Hardware/Library/Tympan_D.lib)(options "")(descr ""))
 )
