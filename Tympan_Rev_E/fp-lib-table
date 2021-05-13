@@ -1,5 +1,6 @@
 (fp_lib_table
   (lib (name Solutions)(type KiCad)(uri ${KIPRJMOD}/Library/Solutions.pretty)(options "")(descr ""))
-  (lib (name Tympan)(type KiCad)(uri ${KIPRJMOD}/Library/Tympan.pretty)(options "")(descr ""))
+  (lib (name Tympanold)(type KiCad)(uri ${KIPRJMOD}/Library/Tympan.pretty)(options "")(descr ""))
   (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/Library/teensy.pretty)(options "")(descr ""))
+  (lib (name Tympan)(type KiCad)(uri /Users/joelmurphy/Tympan_github/Rev_F/Library/Tympan.pretty)(options "")(descr ""))
 )
