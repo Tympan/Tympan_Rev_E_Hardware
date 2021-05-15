@@ -4,6 +4,8 @@ Repository for Tympan Rev E v2 Electronics and case designs. This version of the
 ## Check Back For Updates
 
 ## Update
+### This project is also on Circuit Hub
+Click [HERE](https://circuithub.com/projects/biomurph/Tympan_Rev_E) to view this project on Circuit Hub
 
 Push of 5/13/21
 Added breakout of the Program pin to an Tympan board pushbutton.
@@ -11,6 +13,6 @@ Location of Pushbutton is between the IN OUT at the TOP of the board.
 
 ![PROGRAM BUTTON](assets/programButton.png)
 
-There is an isse with the position of the coin cell battery and the position of the 3pin 2mm header for compatability with Rev D. This affects daughter cards that depend on the 3 pin header position. 
+There is an issue with the position of the coin cell battery and the position of the 3pin 2mm header for compatibility with Rev D. This affects daughter cards that depend on the 3 pin header position. 
 
 ![COLLISION](assets/coin_cell_header_collision.png)
