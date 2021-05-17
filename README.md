@@ -13,6 +13,3 @@ Location of Pushbutton is between the IN OUT at the TOP of the board.
 
 ![PROGRAM BUTTON](assets/programButton.png)
 
-There is an issue with the position of the coin cell battery and the position of the 3pin 2mm header for compatibility with Rev D. This affects daughter cards that depend on the 3 pin header position. 
-
-![COLLISION](assets/coin_cell_header_collision.png)
