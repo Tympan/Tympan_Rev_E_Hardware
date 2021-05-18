@@ -2985,19 +2985,27 @@ Wire Wire Line
 	13500 3850 13650 3850
 Wire Wire Line
 	5050 3450 5700 3450
-$Comp
-L Connector_Generic:Conn_01x04 J3
-U 1 1 615F9C17
-P 5900 3350
-F 0 "J3" H 5980 3342 50  0000 L CNN
-F 1 "Conn_01x04" H 5980 3251 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.00mm" H 5900 3350 50  0001 C CNN
-F 3 "~" H 5900 3350 50  0001 C CNN
-	1    5900 3350
-	1    0    0    -1  
-$EndComp
 Text Label 5650 3250 2    60   ~ 0
 V_BAT
 Wire Wire Line
 	5650 3250 5700 3250
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 60A6C033
+P 5900 3250
+F 0 "J3" H 5980 3242 50  0000 L CNN
+F 1 "Conn_01x06" H 5980 3151 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.00mm" H 5900 3250 50  0001 C CNN
+F 3 "~" H 5900 3250 50  0001 C CNN
+	1    5900 3250
+	1    0    0    -1  
+$EndComp
+Text Label 18900 4250 0    60   ~ 0
+35_TX8
+Text Label 18900 4350 0    60   ~ 0
+34_RX8
+Text Label 5700 3050 2    60   ~ 0
+35_TX8
+Text Label 5700 3150 2    60   ~ 0
+34_RX8
 $EndSCHEMATC
