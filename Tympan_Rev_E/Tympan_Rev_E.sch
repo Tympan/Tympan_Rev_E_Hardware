@@ -2999,13 +2999,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 60B0A145
-P 16000 7950
-F 0 "J4" H 15950 8150 50  0000 L CNN
-F 1 "Qwiik Connector" H 15700 7650 50  0000 L CNN
-F 2 "Connectors_JST:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled" H 16000 7950 50  0001 C CNN
-F 3 "~" H 16000 7950 50  0001 C CNN
-	1    16000 7950
-	1    0    0    -1  
+P 16000 8050
+F 0 "J4" H 15950 7750 50  0000 L CNN
+F 1 "Qwiik Connector" H 15700 8350 50  0000 L CNN
+F 2 "Connectors_JST:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled" H 16000 8050 50  0001 C CNN
+F 3 "~" H 16000 8050 50  0001 C CNN
+	1    16000 8050
+	1    0    0    1   
 $EndComp
 Text Label 15800 7850 2    60   ~ 0
 SCL2
