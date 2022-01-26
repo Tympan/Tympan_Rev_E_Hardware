@@ -1,0 +1,255 @@
+Info: Checking netlist symbol footprint “U5:/5F297041:teensy:Teensy41_SMT”.
+Info: Checking netlist symbol footprint “AE1:/61F54BA8:”.
+Info: Checking netlist symbol footprint “U6:/5F839C32:Tympan:WDFN8_3X4mm_0.65P”.
+Info: Checking netlist symbol footprint “BT1:/5E81701F:Battery:BatteryHolder_Keystone_3001_1x12mm”.
+Info: Checking netlist symbol footprint “BT2:/5E367C0E:Solutions:4UCON-0217-20519”.
+Info: Checking netlist symbol footprint “C1:/5E3FA802:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C2:/5E3FA808:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C3:/5E3FA80E:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C4:/5E3FA814:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C5:/5E367B6D:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C6:/5E367BC1:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C7:/5E367B73:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C8:/5E367B79:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C9:/5E367B85:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C10:/5E367B7F:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C11:/5E367B67:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C12:/5E367B8B:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C13:/5E367B91:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C14:/5E367B61:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C15:/5E367B55:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C16:/5E367B5B:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C17:/5E3FA7C6:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C18:/5E3FA7C0:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C19:/5E367B49:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “U4:/5E367ADD:Package_TO_SOT_SMD:SOT-23-5”.
+Info: Checking netlist symbol footprint “C20:/5E3FA7CC:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C21:/5E3FA7D2:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C22:/5E367B4F:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C23:/5E3FA874:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C24:/5E3FA87A:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C25:/5E93030F:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C26:/5F908201:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “C27:/61F4F171:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “U3:/5E367D49:Package_TO_SOT_SMD:SOT-353_SC-70-5”.
+Info: Checking netlist symbol footprint “U2:/5E367ACB:Package_DFN_QFN:UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm”.
+Info: Checking netlist symbol footprint “U1:/5E367D65:Package_TO_SOT_SMD:SOT-23-5”.
+Info: Checking netlist symbol footprint “C28:/61F50B96:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “SW2:/60AA13BC:Tympan:MJTP1117”.
+Info: Checking netlist symbol footprint “SW1:/5E367AD7:Tympan:CL-SB-22A”.
+Info: Checking netlist symbol footprint “RV1:/5E9302FD:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical”.
+Info: Checking netlist symbol footprint “C29:/62740B06:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R33:/5F857F0D:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R32:/5F8567ED:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R31:/5F5B7EDE:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “D1:/5E367D96:Tympan:ABHB1608S”.
+Info: Checking netlist symbol footprint “D2:/5E9302F1:Capacitor_SMD:C_1206_3216Metric”.
+Info: Checking netlist symbol footprint “D3:/5E9302F7:Capacitor_SMD:C_1206_3216Metric”.
+Info: Checking netlist symbol footprint “D4:/5E3FA92C:Tympan:CLMV”.
+Info: Checking netlist symbol footprint “R30:/5E4742FA:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R29:/5E472F69:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R28:/5E3FA8F4:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R27:/5E3FA8EE:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R26:/5E3FA8E8:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “F1:/5E367AD1:Capacitor_SMD:C_1206_3216Metric”.
+Info: Checking netlist symbol footprint “R25:/5E3FA880:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R24:/5E3FA865:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “IC1:/5E3FA82A:Tympan:BC127-EXT”.
+Info: Checking netlist symbol footprint “R23:/5E3FA85E:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R22:/5E3FA86B:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R21:/5E3FA858:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R20:/5E930309:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R19:/5E930303:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R18:/5E367AF5:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R17:/5E367B0D:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R16:/5E367B07:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R15:/5E367AEF:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R14:/5E367B01:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R13:/5E367AFB:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R12:/5E367D88:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R11:/5E367D71:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R10:/5E367B3D:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R9:/5E367B37:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R8:/5E367B31:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R7:/5E367B2B:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R6:/5E367B25:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R5:/5E367B1F:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R4:/5E367B19:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R3:/5E367B13:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “R2:/5E367DFF:Resistor_SMD:R_0603_1608Metric”.
+Info: Checking netlist symbol footprint “R1:/5E367D77:Resistor_SMD:R_0402_1005Metric”.
+Info: Checking netlist symbol footprint “P8:/5E4BBA26:MountingHole:MountingHole_3mm”.
+Info: Checking netlist symbol footprint “P7:/5E4BBA1E:MountingHole:MountingHole_3mm”.
+Info: Checking netlist symbol footprint “P6:/5E4BBA18:MountingHole:MountingHole_3mm”.
+Info: Checking netlist symbol footprint “P4:/5E3FA900:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical”.
+Info: Checking netlist symbol footprint “P3:/5E3FA95E:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical”.
+Info: Checking netlist symbol footprint “P2:/5E3FA906:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical”.
+Info: Checking netlist symbol footprint “P1:/5E3FA93D:Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical”.
+Info: Checking netlist symbol footprint “MIC2:/5E3FA982:Tympan:SPM0687LR5H-1”.
+Info: Checking netlist symbol footprint “MIC1:/5E3FA97C:Tympan:SPM0687LR5H-1”.
+Info: Checking netlist symbol footprint “L1:/61F532C2:Capacitor_SMD:C_0402_1005Metric”.
+Info: Checking netlist symbol footprint “J6:/60F7FC3D:Pin_Headers:Pin_Header_Straight_1x24_Pitch2.54mm_SMD_Pin1Left”.
+Info: Checking netlist symbol footprint “J5:/60F7EDF4:Pin_Headers:Pin_Header_Straight_1x24_Pitch2.54mm_SMD_Pin1Left”.
+Info: Checking netlist symbol footprint “J4:/60B0A145:Connectors_JST:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled”.
+Info: Checking netlist symbol footprint “J3:/60A6C033:Pin_Headers:Pin_Header_Straight_1x06_Pitch2.00mm”.
+Info: Checking netlist symbol footprint “J2:/5E367AE3:Tympan:SJ-3524-SMT-TR”.
+Info: Checking netlist symbol footprint “J1:/5E367AE9:Tympan:SJ-3523-SMT-TR”.
+Changing footprint IC1 pad 39 net from  to /LED_2.
+Changing footprint IC1 pad 40 net from  to /BT_CTS.
+Changing footprint IC1 pad 41 net from  to /BT_TX.
+Changing footprint IC1 pad 42 net from  to /BT_RX.
+Changing footprint IC1 pad 43 net from  to /BT_RTS.
+Changing footprint IC1 pad 44 net from  to /BT_nRESET.
+Changing footprint IC1 pad 45 net from  to Net-(IC1-Pad45).
+Changing footprint IC1 pad 46 net from  to Net-(IC1-Pad46).
+Changing footprint IC1 pad 47 net from  to Net-(IC1-Pad47).
+Changing footprint IC1 pad 48 net from  to Net-(IC1-Pad48).
+Changing footprint IC1 pad 49 net from  to Net-(IC1-Pad49).
+Changing footprint IC1 pad 50 net from  to Net-(IC1-Pad50).
+Changing footprint IC1 pad 51 net from  to Net-(IC1-Pad51).
+Changing footprint J5 pad 24 net from Net-(J5-Pad24) to /DIN_1.
+Changing footprint IC1 pad 53 net from  to Net-(C28-Pad2).
+Changing footprint IC1 pad 52 net from  to GND.
+Changing footprint IC1 pad 38 net from  to /LED_1.
+Changing footprint IC1 pad 37 net from  to /LED_0.
+Changing footprint IC1 pad 36 net from  to Net-(IC1-Pad36).
+Changing footprint J3 value from Conn_01x06 to Opt Breakout.
+Changing footprint IC1 pad 35 net from  to Net-(IC1-Pad35).
+Changing footprint IC1 pad 34 net from  to Net-(IC1-Pad34).
+Changing footprint J5 value from Conn_01x24 to SMT.
+Changing footprint U5 pad 48 net from /VIN to /SW_BATT.
+Changing footprint J5 pad 18 net from Net-(J5-Pad18) to /nRESET.
+Changing footprint J5 pad 16 net from Net-(J5-Pad16) to /SCL2.
+Changing footprint J5 pad 14 net from Net-(J5-Pad14) to /MISO.
+Changing footprint J5 pad 12 net from Net-(J5-Pad12) to /SS.
+Changing footprint J5 pad 10 net from Net-(J5-Pad10) to /DOUT.
+Changing footprint J5 pad 8 net from Net-(J5-Pad8) to /DOUT_1.
+Changing footprint J5 pad 6 net from Net-(J5-Pad6) to /BT_RTS.
+Changing footprint J5 pad 4 net from Net-(J5-Pad4) to /BT_PIO5.
+Changing footprint J5 pad 2 net from Net-(J5-Pad2) to /BT_TX.
+Changing footprint J5 pad 23 net from Net-(J5-Pad23) to /nRESET_1.
+Changing footprint J5 pad 21 net from Net-(J5-Pad21) to /M_BIAS_1.
+Changing footprint J5 pad 17 net from Net-(J5-Pad17) to /SDA2.
+Changing footprint J5 pad 13 net from Net-(J5-Pad13) to /MOSI.
+Changing footprint J5 pad 11 net from Net-(J5-Pad11) to /BT_nRESET.
+Changing footprint J5 pad 9 net from Net-(J5-Pad9) to /DIN.
+Changing footprint J5 pad 7 net from Net-(J5-Pad7) to /BT_PIO0.
+Changing footprint J5 pad 5 net from Net-(J5-Pad5) to /BT_CTS.
+Changing footprint J5 pad 3 net from Net-(J5-Pad3) to /BT_RX.
+Changing footprint J5 pad 1 net from Net-(J5-Pad1) to GND.
+Changing footprint IC1 pad 33 net from  to +3V3.
+Changing footprint J6 value from Conn_01x24 to SMT.
+Changing footprint J6 pad 24 net from Net-(J6-Pad24) to /SW_BATT.
+Changing footprint J6 pad 20 net from Net-(J6-Pad20) to GND.
+Changing footprint J6 pad 18 net from Net-(J6-Pad18) to /WCLK.
+Changing footprint J6 pad 16 net from Net-(J6-Pad16) to /SDA.
+Changing footprint J6 pad 14 net from Net-(J6-Pad14) to /LED_R.
+Changing footprint J6 pad 12 net from Net-(J6-Pad12) to /VREGEN.
+Changing footprint J6 pad 10 net from Net-(J6-Pad10) to GND.
+Changing footprint J6 pad 4 net from Net-(J6-Pad4) to /M_BIAS.
+Changing footprint J6 pad 2 net from Net-(J6-Pad2) to /34_RX8.
+Changing footprint J6 pad 23 net from Net-(J6-Pad23) to GND.
+Changing footprint J6 pad 21 net from Net-(J6-Pad21) to /MCLK.
+Changing footprint J6 pad 19 net from Net-(J6-Pad19) to /BCLK.
+Changing footprint J6 pad 17 net from Net-(J6-Pad17) to /SCL.
+Changing footprint J6 pad 15 net from Net-(J6-Pad15) to /POT.
+Changing footprint J6 pad 13 net from Net-(J6-Pad13) to /LED_A.
+Changing footprint J6 pad 11 net from Net-(J6-Pad11) to /SCK.
+Changing footprint J6 pad 9 net from Net-(J6-Pad9) to /ALARMB.
+Changing footprint J6 pad 3 net from Net-(J6-Pad3) to /35_TX8.
+Changing footprint IC1 pad 32 net from  to +3V3.
+Adding new symbol L1 footprint Capacitor_SMD:C_0402_1005Metric.
+Changing footprint L1 pad 2 net from  to Net-(AE1-Pad1).
+Changing footprint L1 pad 1 net from  to Net-(C28-Pad2).
+Changing footprint IC1 pad 31 net from  to +3V3.
+Changing footprint IC1 pad 30 net from  to +3V3.
+Changing footprint IC1 pad 29 net from  to Net-(IC1-Pad29).
+Changing footprint IC1 pad 28 net from  to /VREGEN.
+Changing footprint IC1 pad 27 net from  to GND.
+Changing footprint IC1 pad 26 net from  to Net-(IC1-Pad26).
+Changing footprint IC1 pad 25 net from  to /BT_PIO5.
+Changing footprint IC1 pad 24 net from  to Net-(IC1-Pad24).
+Changing footprint IC1 pad 23 net from  to /BT_PIO0.
+Changing footprint IC1 pad 22 net from  to GND.
+Changing footprint IC1 pad 21 net from  to /LOL.
+Changing footprint IC1 pad 20 net from  to GND.
+Changing footprint IC1 pad 19 net from  to /LOR.
+Changing footprint IC1 pad 18 net from  to GND.
+Changing footprint IC1 pad 17 net from  to Net-(IC1-Pad17).
+Changing footprint IC1 pad 16 net from  to Net-(IC1-Pad16).
+Changing footprint IC1 pad 15 net from  to GND.
+Changing footprint IC1 pad 14 net from  to Net-(IC1-Pad14).
+Changing footprint IC1 pad 13 net from  to GND.
+Changing footprint IC1 pad 12 net from  to Net-(IC1-Pad12).
+Changing footprint IC1 pad 11 net from  to GND.
+Changing footprint IC1 pad 10 net from  to Net-(IC1-Pad10).
+Changing footprint IC1 pad 9 net from  to Net-(IC1-Pad9).
+Changing footprint IC1 pad 8 net from  to Net-(IC1-Pad8).
+Changing footprint IC1 pad 7 net from  to Net-(IC1-Pad7).
+Changing footprint IC1 pad 6 net from  to Net-(IC1-Pad6).
+Changing footprint IC1 pad 5 net from  to Net-(IC1-Pad5).
+Changing footprint IC1 pad 4 net from  to GND.
+Changing footprint IC1 pad 3 net from  to GND.
+Changing footprint IC1 pad 2 net from  to GND.
+Changing footprint IC1 pad 1 net from  to GND.
+Changing symbol IC1 footprint from Tympan:BC127 to Tympan:BC127-EXT.
+Changing footprint F1 pad 2 net from /SW_BATT to +BATT.
+Changing footprint F1 pad 1 net from /VIN to Net-(F1-Pad1).
+Changing footprint D4 pad 4 net from  to Net-(D4-Pad4).
+Changing footprint D4 pad 3 net from  to Net-(D4-Pad3).
+Changing footprint D4 pad 2 net from  to Net-(D4-Pad2).
+Changing footprint D4 pad 1 net from  to +3V3.
+Changing symbol D4 footprint from Solutions:CLMVB-FKA-CFHEHLCBB7a363 to Tympan:CLMV.
+Changing footprint C29 pad 2 net from  to GND.
+Changing footprint C29 pad 1 net from  to Net-(C29-Pad1).
+Adding new symbol C29 footprint Capacitor_SMD:C_0402_1005Metric.
+Changing footprint C28 pad 2 net from  to Net-(C28-Pad2).
+Changing footprint C28 pad 1 net from  to GND.
+Changing footprint SW1 pad 5 net from +BATT to Net-(F1-Pad1).
+Changing footprint SW1 pad 2 net from +BATT to Net-(F1-Pad1).
+Adding new symbol C28 footprint Capacitor_SMD:C_0402_1005Metric.
+Changing footprint C27 pad 1 net from  to GND.
+Changing footprint C27 pad 2 net from  to Net-(AE1-Pad1).
+Adding new symbol C27 footprint Capacitor_SMD:C_0402_1005Metric.
+Changing footprint C19 pad 1 net from /VIN to /SW_BATT.
+Changing footprint U4 value from LP5907MFX-1.8 to MIC5323-1.8YD5-TR.
+Changing footprint U4 pad 1 net from /VIN to /SW_BATT.
+Changing footprint U4 pad 3 net from /VIN to /SW_BATT.
+Changing footprint U4 pad 4 net from Net-(U4-Pad4) to Net-(C29-Pad1).
+Changing footprint IC1 pad 54 net from  to GND.
+Warning: Copper zone (net /VIN) has no pads connected.
+Error: Cannot add new symbol AE1 due to missing footprint .
+Error: Symbol U5 pad 51 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 54 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 55 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 56 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 57 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 58 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 59 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 60 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 61 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 62 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 63 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 64 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 65 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 66 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 67 not found in footprint teensy:Teensy41_SMT.
+
+Error: Symbol U5 pad 52 not found in footprint teensy:Teensy41_SMT.
+
+Error: No footprint defined for symbol “AE1”.
+

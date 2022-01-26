@@ -1,4 +1,4 @@
-update=Monday, June 28, 2021 at 07:38:01 AM
+update=Tuesday, January 25, 2022 at 07:06:27 PM
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Tympan_Rev_E1.net
+LastNetListRead=Tympan_Rev_EXT.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -30,9 +30,10 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.2
-TrackWidth3=0.5
-TrackWidth4=0.75
-TrackWidth5=1
+TrackWidth3=0.35
+TrackWidth4=0.5
+TrackWidth5=0.75
+TrackWidth6=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -61,7 +62,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=2
@@ -248,5 +249,5 @@ SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
-LabSize=60
+LabSize=157
 ERC_TestSimilarLabels=1
