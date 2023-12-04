@@ -1,15 +1,8 @@
-# Tympan Rev E Hardware v2.0.0
-Repository for Tympan Rev E v2 Electronics and case designs. This version of the Rev E is based on the Teensy 4.1 by PJRC and incorporates the Teensy 4.1 into our own design, as we did with the Tympan Rev D. Checkout the v1 branch for the previous daughter card version of this project.
+# Tympan Rev E Hardware Light
+Repository for Tympan Rev E Light Electronics and case designs. This version of the Rev E is based on the Teensy 4.1 by PJRC and incorporates the Teensy 4.1 into our own design, as we did with the Tympan Rev D. This version is light in that it does not contain an on-board AIC, and is meant to be a PCB bridge between the Teensy 4.1 and the AIC Shield.
+
+This is a work in progress.
 
 ## Check Back For Updates
 
-## Update
-### This project is also on Circuit Hub
-Click [HERE](https://circuithub.com/projects/biomurph/Tympan_Rev_E) to view this project on Circuit Hub
-
-Push of 5/13/21
-Added breakout of the Program pin to an Tympan board pushbutton.
-Location of Pushbutton is between the IN OUT at the TOP of the board. 
-
-![PROGRAM BUTTON](assets/programButton.png)
 
